@@ -38,11 +38,11 @@ class Complex
       Complex & operator += (const Complex &);
       Complex & operator -= (const Complex &);
       Complex & operator *= (const Complex &);
-      Complex & operator  += (const double &);
+      Complex & operator  += (const double&);
       Complex & operator -= (const double &);
       Complex & operator *= (const double &);
       Complex & operator /= (const double &);
       Complex & operator = (const Complex &);
       Complex & operator = (const double &);
-};
+    };
 #endif
