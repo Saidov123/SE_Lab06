@@ -18,7 +18,7 @@ class Complex
       operator double();
       double abs();
 
-      friend istream & operator >> (istream &,Complex &) ;
+      friend istream & operator >> (istream &,Complex &);
       friend ostream & operator << (ostream &, Complex &);
 
       Complex operator + (const Complex &);
@@ -38,7 +38,7 @@ class Complex
       Complex & operator += (const Complex &);
       Complex & operator -= (const Complex &);
       Complex & operator *= (const Complex &);
-      Complex & operator  += (const double&);
+      Complex & operator += (const double &);
       Complex & operator -= (const double &);
       Complex & operator *= (const double &);
       Complex & operator /= (const double &);
